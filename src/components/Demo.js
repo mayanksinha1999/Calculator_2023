@@ -9,10 +9,9 @@ export default function Demo() {
     <div>
         <h1 style={{display:"flex", alignItems:"center", justifyContent:"center"}}>Calculator</h1>
         
-    <Container maxWidth="sm">
+    <Container maxWidth="sm" >
         <Grid container spacing={1}>
-            
-            <Grid item xs={6} md={6} style={{background:'black'}}>
+            <Grid item xs={6} md={6} style={{background:'black' ,borderRadius: '26px'}}>
                 <Buttons/>
             </Grid>
         </Grid>
